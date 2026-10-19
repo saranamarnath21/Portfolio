@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { MapPin, Mail, Phone, Briefcase } from "lucide-react";
+import { MapPin, Mail, Briefcase } from "lucide-react";
 import { contact, site } from "@/data/portfolio";
 import { LinkedInIcon } from "./Footer";
 import { fadeUp, viewportOnce } from "@/lib/motion";
@@ -34,15 +34,6 @@ export default function ContactSection() {
               <Mail className="h-4 w-4 text-[#59D2E7]" strokeWidth={1.7} aria-hidden="true" />
               <a href={`mailto:${site.email}`} className="focus-ring hover:text-[#F3F6F7]">
                 {site.email}
-              </a>
-            </li>
-            <li className="flex items-center gap-2.5">
-              <Phone className="h-4 w-4 text-[#59D2E7]" strokeWidth={1.7} aria-hidden="true" />
-              <a
-                href={`tel:${site.phone.replace(/\s+/g, "")}`}
-                className="focus-ring hover:text-[#F3F6F7]"
-              >
-                {site.phone}
               </a>
             </li>
             <li className="flex items-center gap-2.5">
