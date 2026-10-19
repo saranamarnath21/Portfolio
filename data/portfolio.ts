@@ -6,6 +6,7 @@ export const site = {
   role: "Project Engineer · Naval Architecture",
   location: "London, UK",
   email: "saranamarnath21@gmail.com",
+  phone: "",
   linkedin: "https://linkedin.com/in/saranamarnath",
   linkedinLabel: "linkedin.com/in/saranamarnath",
   cvPath: "/Chandana_Saran_CV.pdf",
